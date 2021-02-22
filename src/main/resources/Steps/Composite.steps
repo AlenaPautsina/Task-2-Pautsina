@@ -1,0 +1,5 @@
+Composite: When I fill <Useremail>, <Password> in registration form
+When I enter `<Useremail>` in field located `By.xpath(//*[@id="user"])`
+When I wait until element located `By.xpath(//*[@id="login"])` appears
+When I click on element located `By.xpath(//*[@id="login"])`
+When I enter `<Password>` in field located `By.xpath(//*[@id="password"])`
